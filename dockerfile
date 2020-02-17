@@ -1,3 +1,4 @@
 FROM alpine:3.5
 RUN apk update
-RUN apk add git
+ADD http://www.vlsitechnology.org/pharosc_8.4.tar.gz .
+
